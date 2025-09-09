@@ -1,4 +1,4 @@
-# Raspberry Pi 5 AI Media PC
+# PRAIM PC: Raspberry Pi 5 AI Media PC
 
 This document captures the final hardware, capabilities, and how to assemble & use your Raspberry Pi 5–based media PC with vision and room-sensing.
 
