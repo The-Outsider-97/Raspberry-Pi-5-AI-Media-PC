@@ -28,7 +28,7 @@ This document captures the final hardware, capabilities, and how to assemble & u
 - PSU: Official 27 W USB-C (5.1 V / 5 A)
 
 ### Display, touch & audio
-![Startup](img/Cooling_&_power.jpg)
+![Startup](img/Display_touch_&_audio.jpg)
 - Panel: Waveshare 13.3″ 1920×1080 capacitive-touch (60 Hz)
 - Touch: USB-HID (single USB cable to the Pi)
 - Speakers:
