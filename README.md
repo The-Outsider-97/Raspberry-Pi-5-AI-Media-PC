@@ -36,7 +36,7 @@ This document captures the final hardware, capabilities, and how to assemble & u
    - Notifications via a separate 8 Ω 5 W speaker driven by your PAM8403 2×5 W Bluetooth 5.0 mini amp at 5 V
 
 ### Camera & sensors
-![Startup](img/Cooling_&_power.jpg)
+![Startup](img/Camera_&_sensors.jpg)
 - Camera: Official Raspberry Pi AI Camera (Sony IMX500; on-sensor AI capability)
 - Ambient light: TSL25911 (a.k.a. TSL2591 class), I²C — high-sensitivity lux
 - Environment: BME280, I²C — temperature, humidity, pressure
@@ -48,7 +48,7 @@ This document captures the final hardware, capabilities, and how to assemble & u
 - Board: Waveshare RP2350B-Plus-W (Pico-class, Wi-Fi/BT) — ideal for real-time sensor reads, button/LED I/O, and forwarding data to the Pi over USB-serial or MQTT.
 
 ### Servo + Driver
-![Startup](img/Cooling_&_power.jpg)
+![Startup](img/Servo_+_Driver.jpg)
 - Servo driver: 16-channel PWM Servo Driver Hat 
 - Servo: 25kg DS3218MG 270 Servo motor (to pan the base of the ), MG90S Micro servo motor (to tilt the camera and the sensors)
 - Power: Mascot 6V Plug-in adapter
