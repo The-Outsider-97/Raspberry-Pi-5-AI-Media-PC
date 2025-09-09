@@ -4,7 +4,7 @@ This document captures the final hardware, capabilities, and how to assemble & u
 
 ## 1) Final specs
 ### Core & graphics
-[//]: <![Flow Diagram](img/Core_&_graphics.jpg)>
+![Startup](img/Core_&_graphics.jpg)
 - Board: Raspberry Pi 5 (16 GB LPDDR4X)
 - CPU/GPU: Broadcom BCM2712 — 4× Cortex-A76 (up to ~2.4 GHz) + VideoCore VII
 - Hardware video decode: HEVC/H.265 up to 4K60; H.264 = software; AV1 = software
@@ -14,6 +14,7 @@ This document captures the final hardware, capabilities, and how to assemble & u
 - Audio out: over HDMI (Pi 5 has no 3.5 mm jack)
 
 ### Storage & AI acceleration
+![Startup](Storage_&_AI_acceleration.jpg)
 - Carrier: Double NVMe Base (dual M.2 via PCIe switch; Gen2 x1 uplink shared)
 - SSD: Transcend TS512GMTE110S, 512 GB, NVMe, M.2 2280 (slot A)
 - NPU: Hailo-8L (13 TOPS) module, M.2 2242 (slot B)
@@ -21,11 +22,13 @@ This document captures the final hardware, capabilities, and how to assemble & u
  | Note: Both devices share the Pi’s single PCIe lane via the switch. You still get hundreds of MB/s NVMe and full Hailo inference throughput for typical vision workloads. |
 
 ### Cooling & power
+![Startup](Cooling_&_power.jpg)
 - Pi cooling: Raspberry Pi 5 Active Cooler
 - Case airflow: 2× 30 mm 5 V fans (PWM via MOSFET, GPIO 18)
 - PSU: Official 27 W USB-C (5.1 V / 5 A)
 
 ### Display, touch & audio
+![Startup](Cooling_&_power.jpg)
 - Panel: Waveshare 13.3″ 1920×1080 capacitive-touch (60 Hz)
 - Touch: USB-HID (single USB cable to the Pi)
 - Speakers:
@@ -33,6 +36,7 @@ This document captures the final hardware, capabilities, and how to assemble & u
    - Notifications via a separate 8 Ω 5 W speaker driven by your PAM8403 2×5 W Bluetooth 5.0 mini amp at 5 V
 
 ### Camera & sensors
+![Startup](Cooling_&_power.jpg)
 - Camera: Official Raspberry Pi AI Camera (Sony IMX500; on-sensor AI capability)
 - Ambient light: TSL25911 (a.k.a. TSL2591 class), I²C — high-sensitivity lux
 - Environment: BME280, I²C — temperature, humidity, pressure
@@ -44,6 +48,7 @@ This document captures the final hardware, capabilities, and how to assemble & u
 - Board: Waveshare RP2350B-Plus-W (Pico-class, Wi-Fi/BT) — ideal for real-time sensor reads, button/LED I/O, and forwarding data to the Pi over USB-serial or MQTT.
 
 ### Servo + Driver
+![Startup](Cooling_&_power.jpg)
 - Servo driver: 16-channel PWM Servo Driver Hat 
 - Servo: 25kg DS3218MG 270 Servo motor (to pan the base of the ), MG90S Micro servo motor (to tilt the camera and the sensors)
 - Power: Mascot 6V Plug-in adapter
