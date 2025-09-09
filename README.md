@@ -4,7 +4,7 @@ This document captures the final hardware, capabilities, and how to assemble & u
 
 ## 1) Final specs
 ### Core & graphics
-[//]: <![Flow Diagram](img/Camera & sensors.jpg)>
+[//]: <![Flow Diagram](img/Core_&_graphics.jpg)>
 - Board: Raspberry Pi 5 (16 GB LPDDR4X)
 - CPU/GPU: Broadcom BCM2712 — 4× Cortex-A76 (up to ~2.4 GHz) + VideoCore VII
 - Hardware video decode: HEVC/H.265 up to 4K60; H.264 = software; AV1 = software
